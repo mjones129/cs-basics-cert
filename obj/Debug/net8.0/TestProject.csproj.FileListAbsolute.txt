@@ -1,0 +1,14 @@
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
