@@ -12,3 +12,4 @@
 /mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
 /mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
