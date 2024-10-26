@@ -1,9 +1,6 @@
-﻿string[] orderIDs = new string[] { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
-
-foreach (string orderID in orderIDs)
-{
-    if (orderID.StartsWith("B"))
-    {
-        Console.WriteLine($"This order starts with \"B\": {orderID}");
-    }
-}
+﻿string firstName = "Bob";
+int widgetsPurchased = 7;
+// Testing a change to the message.
+// int widgetsSold = 7;
+// Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
+Console.WriteLine($"{firstName} purchased {widgetsPurchased} widgets.");
