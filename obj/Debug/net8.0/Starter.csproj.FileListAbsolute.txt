@@ -1,0 +1,15 @@
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.pdb
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.sourcelink.json
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.pdb
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/ref/Starter.dll
