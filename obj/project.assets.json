@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj",
+      "projectUniqueName": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/Starter.csproj",
+      "projectName": "Starter",
+      "projectPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/Starter.csproj",
       "packagesPath": "/home/matt/.nuget/packages/",
-      "outputPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/",
+      "outputPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/matt/.nuget/NuGet/NuGet.Config"

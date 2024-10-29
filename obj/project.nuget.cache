@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KVmGqmwhpM/gEx+2bliak6xOVRIfleVdCmC5S9Juom195Sjp8LgIOOhnX5AOWGCX4VUSVpIJP8hNnhcvZ+D9wQ==",
+  "dgSpecHash": "3lxRJVxmkm9B/KFvL7Sz4oaKuBI8cKmGphVAe0u0Ga8PtVSjZAnEFQ+hgbbYOu+dIQdfA8350lFbNeLmXKgCEw==",
   "success": true,
-  "projectFilePath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj",
+  "projectFilePath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/Challenge-project-foreach-if-array-CSharp-main/ChallengeProject/Starter/Starter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
