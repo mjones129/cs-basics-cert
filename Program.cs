@@ -1,31 +1,13 @@
 using System;
 using System.Xml;
 
-//must-use variables
-string permission = "Admin|Manager";
-int level = 19;
+bool flag = true;
+int value;
 
-string output = "";
-
-if (level > 55 && permission.Contains("Admin"))
+if (flag)
 {
-    output = "Welcome, Super Admin user.";
-}
-else if (level >= 55 && permission.Contains("Admin"))
-{
-    output = "Welcome, Admin user.";
-}
-else if (level >= 20 && permission.Contains("Manager"))
-{
-    output = "Contact an Admin for access.";
-}
-else if (level < 20 && permission.Contains("Manager"))
-{
-    output = "You do not have sufficient priveleges.";
-}
-else
-{
-    output = "You do not have sufficient privileges.";
+    int value = 10;
+    Console.WriteLine($"Inside the code block: {value}");
 }
 
-Console.WriteLine(output);
+Console.WriteLine($"Outside the code block: {value}");
