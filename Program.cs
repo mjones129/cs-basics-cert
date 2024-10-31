@@ -1,25 +1,10 @@
 using System;
 using System.Xml;
 
-int[] numbers = { 4, 8, 15, 16, 23, 42 };
-
-bool found = false;
-int total = 0;
-
-foreach (int number in numbers)
+int val1 = 5;
+if (val1 > 0)
 {
-
-    total += number;
-
-    if (number == 42)
-       found = true;
-
+    int val2 = 6;
+    val1 = val2 + val1;
 }
-
-if (found) 
-{
-    Console.WriteLine("Set contains 42");
-
-}
-
-Console.WriteLine($"Total: {total}");
+Console.WriteLine(val1);
