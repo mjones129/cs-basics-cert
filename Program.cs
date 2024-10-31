@@ -1,13 +1,11 @@
 using System;
 using System.Xml;
 
-bool flag = true;
-int value;
+int value1 = 5;
 
-if (flag)
+if (value1 > 0)
 {
-    int value = 10;
-    Console.WriteLine($"Inside the code block: {value}");
+    int value2 = 6;
+    value1 = value1 + value2;
 }
-
-Console.WriteLine($"Outside the code block: {value}");
+Console.WriteLine($"First Value: {value1}");
