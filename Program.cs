@@ -2,10 +2,12 @@ using System;
 using System.Runtime.ExceptionServices;
 using System.Xml;
 
-//using a for loop to iterate through an array (reversed order from the first example, but this order refelcts the natural order in the array as it's initiated)
+//foreach loop limitation
 
 string[] names = { "Alex", "Eddie", "David", "Michael" };
-for (int i = 0; i < names.Length; i++)
+foreach (var name in names)
 {
+    // Can't do this:
+    if (name == "David") name = "Sammy";
     Console.WriteLine(names[i]);
 }
