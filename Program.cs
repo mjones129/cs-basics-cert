@@ -1,10 +1,18 @@
 using System;
 using System.Xml;
 
-int val1 = 5;
-if (val1 > 0)
+string fruit = "banana";
+switch (fruit)
 {
-    int val2 = 6;
-    val1 = val2 + val1;
+    case "apple":
+        Console.WriteLine($"App will display information for apple.");
+        break;
+
+    case "banana":
+        Console.WriteLine($"App will display information for banana.");
+        break;
+
+    case "cherry":
+        Console.WriteLine($"App will display information for cherry.");
+        break;
 }
-Console.WriteLine(val1);
