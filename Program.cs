@@ -1,33 +1,22 @@
 using System;
 
-Random random = new Random();
-int heroHealth = 10;
-int monsterHealth = 10;
-// int attack = random.Next(1, 10);
-// int turn = 0;
+int hero = 10;
+int monster = 10;
 
+Random dice = new Random();
 
-// HERO'S TURN
 do
 {
-    int heroAttack = random.Next(1, 10);
-    if (monsterHealth > 0)
-    {
-        monsterHealth = monsterHealth - heroAttack;
-        Console.WriteLine($"Monster was damaged and lost {heroAttack} health and now has {monsterHealth} health.");
-    }
-    else
-    {
-        Console.WriteLine("Hero wins!");
-    }
-    int monsterAttack = random.Next(1, 10);
-    if (heroHealth > 0)
-    {
-        heroHealth = heroHealth - monsterAttack;
-        Console.WriteLine($"Hero was damaged and lost {monsterAttack} health and now has {heroHealth} health.");
-    }
-    else
-    {
-        Console.WriteLine("Monster wins!");
-    }
-} while (monsterHealth > 0 || heroHealth > 0);
+    int roll = dice.Next(1, 11);
+    monster -= roll;
+    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+
+    if (monster <= 0) continue;
+
+    roll = dice.Next(1, 11);
+    hero -= roll;
+    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {hero} health.");
+
+} while (hero > 0 && monster > 0);
+
+Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
