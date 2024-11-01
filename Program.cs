@@ -1,22 +1,27 @@
 using System;
 
-int hero = 10;
-int monster = 10;
+Console.WriteLine("Enter a number between 5 and 10.");
 
-Random dice = new Random();
+bool validNumber = false;
 
 do
 {
-    int roll = dice.Next(1, 11);
-    monster -= roll;
-    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+    string? input = Console.ReadLine();
+    if (int.TryParse(input, out int num))
+    {
+        if (num >= 5 && num <= 10)
+        {
+            validNumber = true;
+            Console.WriteLine($"You entered {num} which is between 5 and 10.");
+        }
+        else
+        {
+            Console.WriteLine("Your number is not between 5 and 10. Try again.");
+        }
 
-    if (monster <= 0) continue;
-
-    roll = dice.Next(1, 11);
-    hero -= roll;
-    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {hero} health.");
-
-} while (hero > 0 && monster > 0);
-
-Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+    }
+    else
+    {
+        Console.WriteLine("Invalid input. Try again.");
+    }
+} while (validNumber == false);
