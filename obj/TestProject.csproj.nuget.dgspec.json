@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj": {}
+    "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj": {}
   },
   "projects": {
-    "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj": {
+    "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/TestProject.csproj",
-        "packagesPath": "/home/matt/.nuget/packages/",
-        "outputPath": "/mnt/8581ce80-d794-4f75-b738-95466e922b21/LocalSites/CSharpProjects/TestProject/obj/",
+        "projectPath": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\271fi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/matt/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\271fi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
@@ -32,6 +29,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

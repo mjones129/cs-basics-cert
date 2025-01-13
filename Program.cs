@@ -1,19 +1,25 @@
-﻿/*
-    The following code creates five random OrderIDs
-    to test the fraud detection process. OrderIDs
-    consist of a letter from A to E, and a three
-    digit number. Ex. A123.
-*/
-Random random = new Random();
-string[] orderIDs = new string[5];
-for (int i = 0; i < orderIDs.Length; i++)
+﻿//This is code project number 1 in unit 5 of the C# course
+
+Console.WriteLine("Enter an integer value between 5 and 10");
+
+while (true)
 {
-    int prefixValue = random.Next(65, 70);
-    string prefix = Convert.ToChar(prefixValue).ToString();
-    string suffix = random.Next(1, 1000).ToString("000");
-    orderIDs[i] = prefix + suffix;
-}
-foreach (var orderID in orderIDs)
-{
-    Console.WriteLine(orderID);
+    string input = Console.ReadLine();
+    int value;
+    if (int.TryParse(input, out value))
+    {
+        if (value >= 5 && value <= 10)
+        {
+            Console.WriteLine("Your input value (" + value + ") has been accepted.");
+            break;
+        }
+        else
+        {
+            Console.WriteLine("You entered (" + value + ") Please enter a value between 5 and 10");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Please enter a valid integer value");
+    }
 }
