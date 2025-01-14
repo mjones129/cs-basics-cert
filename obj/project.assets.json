@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\Starter.csproj",
+      "projectName": "Starter",
+      "projectPath": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\Starter.csproj",
       "packagesPath": "C:\\Users\\271fi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\271fi\\Projects\\cs-basics-cert\\obj\\",
       "projectStyle": "PackageReference",
