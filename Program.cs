@@ -123,42 +123,42 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Challenge Project - please check back soon to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Challenge Project - please check back soon to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
         case "5":
             // Edit an animal’s age
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
         case "6":
             // Edit an animal’s personality description
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
         case "7":
             // Display all cats with a specified characteristic
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
 
         case "8":
             // Display all dogs with a specified characteristic
-            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
