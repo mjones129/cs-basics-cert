@@ -158,28 +158,8 @@ do
                     validEntry = true;
                 }
             } while (validEntry == false);
-            
-            while (anotherPet == "y" && petCount < maxPets)
-            {
-                // increment petCount (the array is zero-based, so we increment the counter after adding to the array)
-                petCount = petCount + 1;
 
-                // check maxPet limit
-                if (petCount < maxPets)
-                {
-                    // another pet?
-                    Console.WriteLine("Do you want to enter info for another pet (y/n)");
-                    do
-                    {
-                        readResult = Console.ReadLine();
-                        if (readResult != null)
-                        {
-                            anotherPet = readResult.ToLower();
-                        }
 
-                    } while (anotherPet != "y" && anotherPet != "n");
-                }
-            }
 
             if (petCount >= maxPets)
             {
@@ -226,8 +206,8 @@ do
                 {
                     animalPhysicalDescription = "tbd";
                 }
-                
-            } while (animalPersonalityDescription == "");
+
+            } while (animalPhysicalDescription == "");
 
             // get a description of the pet's personality - animalPersonalityDescription can be blank.
             do
@@ -270,8 +250,30 @@ do
             ourAnimals[petCount, 3] = "Nickname: " + animalNickname;
             ourAnimals[petCount, 4] = "Physical description: " + animalPhysicalDescription;
             ourAnimals[petCount, 5] = "Personality: " + animalPersonalityDescription;
+
+            while (anotherPet == "y" && petCount < maxPets)
+            {
+                // increment petCount (the array is zero-based, so we increment the counter after adding to the array)
+                petCount = petCount + 1;
+
+                // check maxPet limit
+                if (petCount < maxPets)
+                {
+                    // another pet?
+                    Console.WriteLine("Do you want to enter info for another pet (y/n)");
+                    do
+                    {
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            anotherPet = readResult.ToLower();
+                        }
+
+                    } while (anotherPet != "y" && anotherPet != "n");
+                }
+            }
             break;
-            
+
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
