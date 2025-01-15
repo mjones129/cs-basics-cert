@@ -139,6 +139,26 @@ do
             {
                 Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
             }
+            bool validEntry = false;
+            // get species (cat or dog) - string animalSpecies is a required field
+            do
+            {
+                Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+                readResult = Console.ReadLine();
+                if (readResult != null)
+                {
+                    animalSpecies = readResult.ToLower();
+                }
+                if (animalSpecies != "dog" && animalSpecies != "cat")
+                {
+                    validEntry = false;
+                }
+                else
+                {
+                    validEntry = true;
+                }
+            } while (validEntry == false);
+            
             while (anotherPet == "y" && petCount < maxPets)
             {
                 // increment petCount (the array is zero-based, so we increment the counter after adding to the array)
