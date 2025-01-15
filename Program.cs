@@ -105,34 +105,66 @@ do
     // pause code execution
     // readResult = Console.ReadLine();
 
-    switch(menuSelection)
+    switch (menuSelection)
     {
         case "1":
-        break;
+            // List all of our current pet information
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "2":
-        break;
+            // Add a new animal friend to the ourAnimals array
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "3":
-        break;
+            // Ensure animal ages and physical descriptions are complete
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "4":
-        break;
+            // Ensure animal nicknames and personality descriptions are complete
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "5":
-        break;
+            // Edit an animal’s age
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "6":
-        break;
+            // Edit an animal’s personality description
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "7":
-        break;
+            // Display all cats with a specified characteristic
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         case "8":
-        break;
+            // Display all dogs with a specified characteristic
+            Console.WriteLine("This app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue");
+            readResult = Console.ReadLine();
+            break;
 
         default:
-        break;
+            break;
     }
 
 } while (menuSelection != "exit");
